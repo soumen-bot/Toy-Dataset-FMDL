@@ -16,12 +16,7 @@ Each board is augmented by applying **rotations (0°, 90°, 180°, 270°)** to t
 
 After running the dataset generation script, the following structure is created:
 
-ttt_dataset/
--├── 00001_rot0.png
--├── 00002_rot90.png
--├── ...
--├── labels.csv # Contains filenames and corresponding labels
-
+<pre> ```text ttt_dataset/ ├── 00001_rot0.png ├── 00002_rot90.png ├── ... ├── labels.csv # Contains filenames and corresponding labels ``` </pre>
 - Images are grayscale (`.png`) and of shape `96×96` pixels (configurable).
 - The CSV file contains two columns:
   - `filename`: name of the image file
